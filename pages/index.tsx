@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../styled/components/Header.styled';
 
 const Home = () => (
   <div className="container">
@@ -7,7 +8,9 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main></main>
+    <main>
+      <Header>hello world</Header>
+    </main>
 
     <footer>
       <a
