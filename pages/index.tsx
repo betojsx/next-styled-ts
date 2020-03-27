@@ -4,8 +4,8 @@ import Header from '../styled/components/Header.styled';
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <title>Promo King</title>
+      <link rel="icon" href="/favicon.png" />
     </Head>
 
     <main>
