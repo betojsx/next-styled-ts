@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Header from '../src/styled/components/Header.styled';
+import Header from '../src/components/Header/Header';
+import Section from '../src/components/Section/Section';
 
 const Home = () => (
   <div className="container">
@@ -9,7 +10,13 @@ const Home = () => (
     </Head>
 
     <main>
-      <Header>hello world</Header>
+      <Header></Header>
+      <Section color="yellow">
+        <img
+          src="/static/images/logo-promocao-desktop.png"
+          alt="Logo Promocao"
+        />
+      </Section>
     </main>
 
     <footer>
