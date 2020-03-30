@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '../styled/components/Header.styled';
+import Header from '../src/styled/components/Header.styled';
 
 const Home = () => (
   <div className="container">
