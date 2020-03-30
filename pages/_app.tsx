@@ -1,7 +1,7 @@
 import App from 'next/app';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from '../src/styled/theme';
-import GlobalStyle from '../src/styled/global/global.styled';
+import GlobalStyle from '../src/styled/global.styled';
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
