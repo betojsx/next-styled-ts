@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle` 
-	@import url('/static/fonts/stylesheet.css');
 
 	/* DEFAULTS */
 	body {
