@@ -1,8 +1,7 @@
 import Head from 'next/head';
-import Header from '../src/components/Header/Header';
-import Section from '../src/components/Section/Section';
+import Home from '../src/components/Home/home';
 
-const Home = () => (
+const Index = () => (
 	<div className="container">
 		<Head>
 			<title>Promo King</title>
@@ -10,15 +9,7 @@ const Home = () => (
 			<link rel="stylesheet" href="/static/fonts/stylesheet.css" />
 		</Head>
 
-		<main>
-			<Header></Header>
-			<Section color="yellow">
-				<img
-					src="/static/images/logo-promocao-desktop.png"
-					alt="Logo Promocao"
-				/>
-			</Section>
-		</main>
+		<Home></Home>
 
 		<footer>
 			<a
@@ -32,4 +23,4 @@ const Home = () => (
 	</div>
 );
 
-export default Home;
+export default Index;
