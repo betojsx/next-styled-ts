@@ -1,15 +1,11 @@
 import Head from 'next/head';
-import Home from '../src/components/Home/home';
 
 const Index = () => (
 	<div className="container">
 		<Head>
-			<title>Promo King</title>
+			<title>Next JS Base APP</title>
 			<link rel="icon" href="/favicon.png" />
-			<link rel="stylesheet" href="/static/fonts/stylesheet.css" />
 		</Head>
-
-		<Home></Home>
 
 		<footer>
 			<a
